@@ -1,13 +1,15 @@
 import type { Metadata } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
-import './globals.css'
+import '../styles/globals.css'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
 
 export const metadata: Metadata = {
   title: 'Bravo Cenografia',
-  description: 'Cenografia profissional para cinema e teatro',
+  description: 'Cenografia com identidade, impacto e execução completa',
 }
 
 export default function RootLayout({
@@ -18,7 +20,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${inter.variable} ${montserrat.variable} font-sans`}>
-        {children}
+        <Header />
+        <main className="pt-16">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )

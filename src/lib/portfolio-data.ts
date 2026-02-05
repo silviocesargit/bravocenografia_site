@@ -1,0 +1,56 @@
+// Dados dos projetos do portfólio
+export const PORTFOLIO_PROJECTS = [
+  {
+    id: 1,
+    title: "BRAHMA OAB",
+    category: "Evento Corporativo",
+    image: "/images/portfolio/BRAHMA OAB/img_brahma_oab1.JPG",
+    video: "/videos/reels/BRAHMA OAB/video_brahma_oab.mp4",
+    description: "Cenografia impactante para evento corporativo",
+    images: [
+      "/images/portfolio/BRAHMA OAB/img_brahma_oab1.JPG",
+      "/images/portfolio/BRAHMA OAB/img_brahma_oab2.JPG",
+      "/images/portfolio/BRAHMA OAB/img_brahma_oab3.JPG",
+    ],
+  },
+  {
+    id: 2,
+    title: "CDBAR - Tema RJ",
+    category: "Ativação",
+    image: "/images/portfolio/CDBAR _Tema Rj/img_cdbar1.JPG",
+    description: "Experiência imersiva temática",
+    images: [],
+  },
+  {
+    id: 3,
+    title: "Festival PRIMAVERÃO",
+    category: "Festival",
+    image: "/images/portfolio/Festival PRIMAVERÃO/img_festival1.JPG",
+    description: "Grande produção para festival",
+    images: [],
+  },
+  {
+    id: 4,
+    title: "MBA Experience 2023",
+    category: "Educacional",
+    image: "/images/portfolio/MBA Experience 2023/img_mba1.JPG",
+    description: "Cenografia para evento educacional",
+    images: [],
+  },
+  {
+    id: 5,
+    title: "STAND PILAR 2026",
+    category: "Stand",
+    image: "/images/portfolio/STAND_PILAR_2026/img_pilar1.JPG",
+    description: "Stand cenográfico para feira",
+    images: [],
+  },
+  {
+    id: 6,
+    title: "Tardezinha do Sabores 2",
+    category: "Social",
+    image: "/images/portfolio/Tardezinha do Sabores 2/img_sabores1.JPG",
+    description: "Evento social com cenografia",
+    images: [],
+  },
+]
