@@ -17,12 +17,12 @@ export const PORTFOLIO_PROJECTS = [
     id: 2,
     title: "CDBAR - Tema RJ",
     category: "Ativação",
-    image: "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio2.JPG",
+    image: "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio1.JPG",
     description: "Experiência imersiva temática",
     images: [
+      "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio1.JPG",
       "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio2.JPG",
       "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio3.JPG",
-      "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio4.JPG",
     ],
   },
   {
