@@ -1,5 +1,6 @@
 import { Variants } from "framer-motion"
 
+// Animation variants for fade and slide effects
 export const fadeInUp: Variants = {
   initial: { opacity: 0, y: 60 },
   animate: { opacity: 1, y: 0 },
