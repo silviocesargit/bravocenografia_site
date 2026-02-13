@@ -12,6 +12,15 @@ export default function Home() {
     <div>
       {/* HERO SECTION */}
       <Section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-card to-background relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20 z-0">
+          <Image
+            src="/images/hero/img_festialprimaverao2.JPG"
+            alt="Hero Background"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         <div className="text-center max-w-3xl relative z-10">
           <FadeIn direction="up" duration={0.8}>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">

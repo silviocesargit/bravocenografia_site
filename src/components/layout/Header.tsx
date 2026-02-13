@@ -14,7 +14,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Image
-            src="/images/LOGO_BRAVO.png"
+            src="/images/BRASAO_BRAVO.png"
             alt="Bravo Cenografia Logo"
             width={40}
             height={40}
