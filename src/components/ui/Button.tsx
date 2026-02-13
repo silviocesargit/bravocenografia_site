@@ -11,6 +11,8 @@ interface ButtonProps {
   className?: string
   target?: string
   rel?: string
+  type?: 'button' | 'submit' | 'reset'
+  disabled?: boolean
 }
 
 export default function Button({
@@ -22,14 +24,16 @@ export default function Button({
   className = '',
   target,
   rel,
+  type = 'button',
+  disabled = false,
 }: ButtonProps) {
   const baseStyles =
     'inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200'
 
   const variants = {
-    primary: 'bg-primary text-primary-foreground hover:opacity-90 active:scale-95',
-    secondary: 'bg-secondary text-secondary-foreground hover:opacity-90 active:scale-95',
-    ghost: 'bg-transparent text-primary border border-primary hover:bg-primary/10 active:scale-95',
+    primary: 'bg-primary text-primary-foreground hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed',
+    secondary: 'bg-secondary text-secondary-foreground hover:opacity-90 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed',
+    ghost: 'bg-transparent text-primary border border-primary hover:bg-primary/10 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed',
   }
 
   const sizes = {
@@ -49,7 +53,7 @@ export default function Button({
   }
 
   return (
-    <button className={buttonClass} onClick={onClick}>
+    <button className={buttonClass} onClick={onClick} type={type} disabled={disabled}>
       {children}
     </button>
   )
