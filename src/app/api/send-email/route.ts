@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
 
     // Enviar email
     const { error } = await resend.emails.send({
-      from: 'Bravo Cenografia <onboarding@resend.dev>', // Mude para seu email verificado no Resend
+      from: process.env.FROM_EMAIL || 'onboarding@resend.dev',
       to: process.env.CONTACT_EMAIL || 'contato@bravocenografia.com',
       replyTo: validatedData.email,
       subject: `Novo contato: ${validatedData.subject}`,

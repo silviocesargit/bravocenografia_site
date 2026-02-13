@@ -18,6 +18,7 @@ export const PORTFOLIO_PROJECTS = [
     title: "CDBAR - Tema RJ",
     category: "Ativação",
     image: "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio2.JPG",
+    video: "/videos/reels/CDBAR _Tema Rj/video_cdbar_rio.mp4",
     description: "Experiência imersiva temática",
     images: [
       "/images/portfolio/CDBAR _Tema Rj/img_cdbar_rio2.JPG",
@@ -30,6 +31,7 @@ export const PORTFOLIO_PROJECTS = [
     title: "Festival PRIMAVERÃO",
     category: "Festival",
     image: "/images/portfolio/Festival PRIMAVERÃO/img_festialprimaverao1.JPG",
+    video: "/videos/reels/Festival PRIMAVERÃO/video_festivalprimaverao.mp4",
     description: "Grande produção para festival",
     images: [
       "/images/portfolio/Festival PRIMAVERÃO/img_festialprimaverao1.JPG",
@@ -42,6 +44,7 @@ export const PORTFOLIO_PROJECTS = [
     title: "MBA Experience 2023",
     category: "Educacional",
     image: "/images/portfolio/MBA Experience 2023/img_mba23_1.PNG",
+    video: "/videos/reels/MBA Experience 2023/video_mba23.mp4",
     description: "Cenografia para evento educacional",
     images: [
       "/images/portfolio/MBA Experience 2023/img_mba23_1.PNG",
@@ -54,6 +57,7 @@ export const PORTFOLIO_PROJECTS = [
     title: "STAND PILAR 2026",
     category: "Stand",
     image: "/images/portfolio/STAND_PILAR_2026/IMAGEM_STAND1.jpeg",
+    video: "/videos/reels/STAND_PILAR_2026/VIDEO_STAND_PILAR.mp4",
     description: "Stand cenográfico para feira",
     images: [
       "/images/portfolio/STAND_PILAR_2026/IMAGEM_STAND1.jpeg",
@@ -66,6 +70,7 @@ export const PORTFOLIO_PROJECTS = [
     title: "Tardezinha do Sabores 2",
     category: "Social",
     image: "/images/portfolio/Tardezinha do Sabores 2/img_tardezinha1.JPG",
+    video: "/videos/reels/Tardezinha do Sabores 2/video_tardezinha.mp4",
     description: "Evento social com cenografia",
     images: [
       "/images/portfolio/Tardezinha do Sabores 2/img_tardezinha1.JPG",
