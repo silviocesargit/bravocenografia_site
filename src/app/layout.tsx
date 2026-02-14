@@ -19,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        <link rel="icon" href="/images/LOGO_BRAVO.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/LOGO_BRAVO.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

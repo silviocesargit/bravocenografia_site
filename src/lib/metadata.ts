@@ -13,6 +13,10 @@ export const defaultMetadata: Metadata = {
   authors: [{ name: 'Bravo Cenografia' }],
   creator: 'Bravo Cenografia',
   publisher: 'Bravo Cenografia',
+  icons: {
+    icon: '/images/LOGO_BRAVO.png',
+    apple: '/images/LOGO_BRAVO.png',
+  },
   formatDetection: {
     email: false,
     address: false,
